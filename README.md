@@ -21,6 +21,9 @@ $ docker-compose -f server/docker-compose.yml up -d --build
 $ docker-compose -f client/docker-compose.yml up -d --build
 ```
 
+<img width="530" alt="스크린샷" src="https://user-images.githubusercontent.com/51858583/168405497-788c422e-20aa-4bd3-901a-14d721974f16.png">
+
+
 ## Network information
 
 ```sh
