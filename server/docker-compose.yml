@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  server:
+    container_name: websocket-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5000:5000
+    restart: always
+
+networks:
+  default:
+    external:
+      name: custom-network  

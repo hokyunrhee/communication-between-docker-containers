@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  client:
+    container_name: websocket-client
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    restart: always
+
+networks:
+  default:
+    external:
+      name: custom-network  
